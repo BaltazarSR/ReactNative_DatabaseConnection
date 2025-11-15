@@ -9,26 +9,3 @@ export default function App() {
     </>
   );
 }
-
-
-
-
-
-// MVC
-// FLatlist
-// Error handling
-// Cache
-// Webhook
-// Logging
-// UX
-// Semestre char
-// show if there is conection
-// number of users on front end
-// updated at _
-// 
-
-// id
-// name
-// matricula
-// semester
-// date register

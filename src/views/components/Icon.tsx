@@ -111,7 +111,7 @@ export const MinusCircle = ({ size = 24, color = '#fafafa' }: IconProps) => (
 );
 
 export const PlusCircle = ({ size = 24, color = '#fafafa' }: IconProps) => (
-  <Svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={2}>
+  <Svg width={size} height={size} viewBox="0 0 24 24" fill={color} stroke='#fafafa' strokeWidth={2}>
     <Path 
       stroke-linecap="round" 
       stroke-linejoin="round" 
@@ -121,12 +121,12 @@ export const PlusCircle = ({ size = 24, color = '#fafafa' }: IconProps) => (
   </Svg>
 );
 
-export const UserIcon = ({ size = 24, color = '#fafafa' }: IconProps) => (
-  <Svg width={size} height={size} viewBox="0 0 24 24" fill={color} stroke="none" strokeWidth={2}>
+export const DatabaseIcon = ({ size = 24, color = '#fafafa' }: IconProps) => (
+  <Svg width={size} height={size} viewBox="0 0 24 24" fill={color} stroke='#fafafa' strokeWidth={2}>
     <Path 
-      fill-rule="evenodd"
-      d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
-      clip-rule="evenodd"
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+      d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"
     />
   </Svg>
 );
