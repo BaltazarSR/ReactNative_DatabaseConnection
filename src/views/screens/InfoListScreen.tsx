@@ -39,7 +39,7 @@ export default function InfoListScreen() {
   if (error) {
     return (
       <View style={styles.centerContainer}>
-        <Text style={styles.errorText}>Error: {error}</Text>
+        <Text style={styles.errorText}>Error</Text>
       </View>
     );
   }

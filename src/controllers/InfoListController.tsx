@@ -64,11 +64,10 @@ export const useInfoListController = () => {
     useEffect(() => {
         fetchStudents();
 
-        // Set up periodic connection check (every 10 seconds)
         logger.log("[InfoList Controller] Setting up periodic connection check");
         const connectionCheckInterval = setInterval(() => {
             checkConnection();
-        }, 60000); // Check every 10 seconds
+        }, 60000);
 
         // Subscribe to real-time changes
         logger.log("[InfoList Controller] Setting up real-time subscription");
